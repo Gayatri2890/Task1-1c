@@ -1,0 +1,58 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Management Tool</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#tasks">Tasks</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#create-project">Create Project</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="tasks">
+            <h2>Tasks</h2>
+            <ul id="task-list">
+                <li>Marketing Website Design</li>
+                <li>Branding Design</li>
+                <li>UI/UX Fundamentals</li>
+                <li>Wireframe and Prototyping</li>
+                <li>Style Guide</li>
+                <li>UX Research and Flows</li>
+                <li>Layout design</li>
+            </ul>
+            <button id="add-task-btn">Add Task</button>
+        </section>
+        <section id="team">
+            <h2>Team</h2>
+            <ul id="team-list">
+                <li>Emma Castro</li>
+                <li>Steve Mathew</li>
+                <li>Robert Pattinson</li>
+                <li>Steve Waugh</li>
+                <li>Fanny Russell</li>
+                <li>Rodney Meyer</li>
+                <li>Ellen Simmons</li>
+                <li>Virgie Kim</li>
+            </ul>
+            <button id="invite-team-member-btn">Invite or Add a person</button>
+        </section>
+        <section id="create-project">
+            <h2>Create Project</h2>
+            <form id="create-project-form">
+                <input type="text" id="project-name" placeholder="Project Name">
+                <button id="create-project-btn">Create Project</button>
+            </form>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
